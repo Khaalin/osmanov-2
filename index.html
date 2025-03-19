@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Video Windows</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <video autoplay muted loop id="backgroundVideo">
+            <source src="/assets/video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        
+        <div class="mask" id="mask"></div>
+        
+        <div class="text-overlay">
+            <div class="text-content">
+                <span class="text">We're here</span>
+                <span class="window window-1"></span>
+                <span class="text">to make healthy</span>
+                <span class="window window-2"></span>
+                <span class="text">living effortless, so you can</span>
+                <span class="window window-3"></span>
+                <span class="text">live longer and happier</span>
+                <span class="window window-4"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
